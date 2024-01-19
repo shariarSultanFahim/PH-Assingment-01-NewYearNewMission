@@ -1,0 +1,518 @@
+/* Global */
+* {
+  font-family: "Merriweather", serif;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  border-radius: 8px;
+  border: transparent;
+  background: #f00;
+  padding: 16px 32px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn:hover {
+  cursor: pointer;
+  background: white;
+  color: #f00;
+}
+
+/* Main Banner  */
+
+.banner {
+  background-color: transparent;
+  margin: 50px 140px;
+  border-bottom: 120px;
+  height: 500px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  border-radius: 16px;
+}
+.banner-title h3 {
+  padding-top: 150px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+.banner-title h1 {
+  margin-top: 0px;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+/* 65% OFF */
+.discount-container {
+  border-top: 120px;
+}
+.discount {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+.discount-container p {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+.discount-container h3 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+.discount-img-container {
+  margin: 0px auto;
+  width: 802.9px;
+  height: 500px;
+}
+
+/* Mid-Night Pary */
+.midnight-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  margin: 120px 140px;
+  height: 470px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  border-radius: 16px;
+}
+.newyear-logo-container{
+  align-self: center;
+  margin-left: -100px;
+  margin-top: 50px;
+  width: 250px;
+  height: 350px;
+}
+.newyear-logo {
+  width: 100%;
+  height: 100%;
+}
+.midnight-container h1 {
+  padding-top: 40px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  max-width: 642px;
+}
+.midnight-container p {
+  width: 600px;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 697px;
+}
+.midnight-container button {
+  margin-top: 0px;
+  margin-left: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  background: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.midnight-container button:hover {
+  cursor: pointer;
+  color: #f00;
+  background-color: white;
+}
+
+/* Event Scedule */
+.event-container {
+  margin: 120px 140px;
+  width: 1055px;
+  height: 482px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+}
+.event-container p span {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.event-container p {
+  padding-top: 100px;
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.event-container btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Comming Soon */
+.soon-container {
+  margin: 120px 140px;
+  height: 463px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.new-offer h5 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.new-offer h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  line-height: 40px;
+}
+.new-offer p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.mid-img  {
+  width: 75%;
+  height: 75%;
+  padding: 20px;
+  border-radius: 100%;
+  border: 12px solid #f00;
+  align-items: center;
+}
+.hny h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.hny p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 0px;
+}
+.hny img {
+  width: 140px;
+  height: 140px;
+}
+
+/* Holiday Sale  */
+.holidaysale-container {
+  margin: 120px 140px;
+  background-color: transparent;
+  height: 1000px;
+  text-align: center;
+  background-image: url("../resources/Group\ 75.png"),
+    url("../resources/Group\ 44.png"), url("../resources/Rectangle\ 2.png"),
+    url("../resources/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-position: -5% 80%, 62.5% 60%, bottom, 100% 60%;
+  background-size: 550px, 250px, auto, auto;
+}
+.holidaysale-container h5 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.holidaysale-container h1 span {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holidaysale-container h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.holidaysale-container p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  width: 800px;
+  margin: 0px auto;
+}
+
+/* Awesome Portfolio */
+
+.portfolio-container {
+  margin: 120px 140px;
+}
+.portfolio-container h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.portfolio-container h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 0px;
+  margin-bottom: 22px;
+}
+.portfolio-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+.item img {
+  width: 344px;
+  height: auto;
+}
+.item img:hover {
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+}
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* News Latter */
+.newslatter-container {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: 120px 140px;
+}
+.latter {
+  padding-top: 80px;
+  margin: 40px auto;
+  width: 150px;
+  height: 150px;
+}
+.latter-img {
+  width: 100%;
+  height: 100%;
+}
+.newslatter-container h1 {
+  margin-top: 0px;
+  margin-bottom: 22px;
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.newslatter-container p {
+  margin: 0 auto 48px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  max-width: 896px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.newslatter-container input {
+  margin-top: 0px;
+  margin-bottom: 80px;
+  margin-left: 200px;
+  padding-left: 30px;
+  width: 450px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 50px 0px 0px 50px;
+  border-color: transparent;
+  background: #fff;
+}
+.newslatter-container button {
+  width: 140px;
+  height: 75px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border-color: transparent;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.newslatter-container button:hover {
+  cursor: pointer;
+}
+
+/* Footer Start  */
+
+footer {
+  background: #070211;
+}
+.contact-container {
+  padding-top: 120px;
+  background-color: #070211;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.adress {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-left: 140px;
+}
+.phone p span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0px;
+  vertical-align: middle;
+}
+.phone p img {
+  width: 30px;
+  height: 30px;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+.web p span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0px;
+  vertical-align: middle;
+}
+.web p img {
+  width: 30px;
+  height: 30px;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+hr {
+  margin: 50px 140px 48px;
+}
+.logo img {
+  width: 64px;
+  height: 64px;
+}
+.logo {
+  text-align: center;
+}
+.logo img:hover {
+  cursor: pointer;
+}
+.end {
+  padding-bottom: 120px;
+  background-color: #070211;
+  display: flex;
+  gap: 350px;
+}
+.end p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 140px;
+}
+.unsubscribe {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.unsubscribe:hover {
+  cursor: pointer;
+}
